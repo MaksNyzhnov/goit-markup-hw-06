@@ -387,6 +387,57 @@ address {
   height: 24px;
 }
 
+.footer-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+.footer-input {
+  width: 264px;
+  height: 40px;
+
+  color: #fff;
+  background-color: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+  outline: none;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-input:focus,
+.footer-input:focus {
+  border-color: var(--secondary-brand-color);
+}
+.footer-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 24px;
+  background-color: var(--main-brand-color);
+  border-radius: 4px;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-btn:hover {
+  background-color: var(--secondary-brand-color);
+}
+.footer-form-icon {
+  width: 24px;
+  height: 20px;
+  fill: #fff;
+}
 /* portfolio page */
 .portfolio-section {
   background-color: ##e5e5e5;
